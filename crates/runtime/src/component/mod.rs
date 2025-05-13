@@ -848,7 +848,7 @@ where
 
 type TableResult<T> = Result<T, ResourceTableError>;
 
-pub(crate) struct Ctx<H>
+pub struct Ctx<H>
 where
     H: Handler,
 {
